@@ -3,7 +3,7 @@ include XMLlint
 
 xml = '
 <test>
-  <test>gfdgfdgdf</test>
+  <test>gffdgdf</test>
   <test>
     <test>
       <test3>      </test3>
@@ -13,11 +13,14 @@ xml = '
 
 xml2 = '
 <test>
-  <test>gfd<tesdt> </tes><ghdfgfdgs</test>
-  <test2>
-    <test3>
-    </test3>
-  </test2>
+  <test2>gfd<ghdfgfdgs</test2>
+  <test4>
+    <test3> </test3>
+  </test4>
 </test>'
+xml2 = '<test></test>'
 
-xml2.xml_lint
+
+xml.xml_lint
+
+# 1.- Count that tags are paired
