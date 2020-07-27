@@ -16,33 +16,8 @@ xml_test1 = '
     </test>
   </test>
 </test>'
-
-xml_test2 = '
-<test>
-  <test2>gfd<ghdfgfdgs</test2>
-  <test4>
-    <test3> </test3>
-  </test4>
-</test>'
-xml_test3 = '<te>st></test>'
-
-xml_test4 = '
-<test>
-  <test>dsfdsfdsfsd</test>
-  <te>st3>gffdgdf</test3>
-</test>'
-
-xml_test5 = '
-<?xml version="1.0" encoding="UTF-8"?>
-<test>
-  <test3>dsfdsfdsfsd</test3>
-  <test>gffdgdf</test3>
-  <test3>gsgs</test4>
-</test>'
-
 # rubocop:enable Lint/UselessAssignment
 
-xml_file = File.open("./docs/test1.xml")
+xml_file = File.open('./docs/test2.xml')
 xml = xml_file.read
 xml.xml_lint
-
