@@ -42,4 +42,7 @@ xml_test5 = '
 
 # rubocop:enable Lint/UselessAssignment
 
-xml_test1.xml_lint
+xml_file = File.open("./docs/test1.xml")
+xml = xml_file.read
+xml.xml_lint
+

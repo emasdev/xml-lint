@@ -32,6 +32,7 @@ module XMLlint
     def linter
       cut_schema
       tags = all_tags
+      number_of_tags = tags.size
       scan = true
       i = 0
       matches = 0
@@ -49,9 +50,10 @@ module XMLlint
       end
       conflicted_tags_text = "Error: some tags are not properly closed\nVerify this tags:\n"
       tags.each do |tag|
-        conflicted_tags_text += tag.text
+        conflicted_tags_text += tag.text + " "
       end
-      if (tags.size / 2) == matches
+
+      if (number_of_tags / 2) == matches
         puts 'XML document is valid'
       else
         puts conflicted_tags_text
