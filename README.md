@@ -4,6 +4,8 @@
 
 Great to use after parsing an XML file or String.
 
+![Screenshot](screenshot.png)
+
 ## Built With
 
 - Ruby
@@ -25,7 +27,9 @@ To get a local copy up and running follow these simple example steps.
 - Open a terminal and cd to the folder where the project lives
 - run ruby main/rb.rb
 
-Note: You can validate XML documents from strings or from files. In order to do that just add the xml file to the docs folder and put the name of the file in the main.rb 45 line: File.open("./docs/{name of your file}.xml")
+Note: You can validate XML documents from strings or from files. In order to do that just add the xml file to the docs folder and put the name of the file in the main.rb
+
+File.open("./docs/{name of your file}.xml")
 
 ### Deployment
 
@@ -45,12 +49,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

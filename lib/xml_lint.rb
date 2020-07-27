@@ -50,7 +50,7 @@ module XMLlint
       end
       conflicted_tags_text = "Error: some tags are not properly closed\nVerify this tags:\n"
       tags.each do |tag|
-        conflicted_tags_text += tag.text + " "
+        conflicted_tags_text += tag.text + ' '
       end
 
       if (number_of_tags / 2) == matches
