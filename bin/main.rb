@@ -18,6 +18,6 @@ xml_test1 = '
 </test>'
 # rubocop:enable Lint/UselessAssignment
 
-xml_file = File.open('./docs/test2.xml')
+xml_file = File.open('./docs/test3.xml')
 xml = xml_file.read
-xml.xml_lint
+xml_test1.xml_lint

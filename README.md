@@ -35,10 +35,10 @@ File.open("./docs/{name of your file}.xml")
 
 ## Authors
 
-👤 **Author1**
+👤 **Emanuel González**
 
-- Github: [@githubhandle](https://github.com/emasdev)
-- Twitter: [@twitterhandle](https://twitter.com/elemass)
+- Github: [@emasdev](https://github.com/emasdev)
+- Twitter: [@elemasss](https://twitter.com/elemass)
 
 ## 🤝 Contributing
 
