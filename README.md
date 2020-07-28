@@ -25,11 +25,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone or download this project
 - Open a terminal and cd to the folder where the project lives
-- run ruby bin/main.rb
-
-Note: You can validate XML documents from strings or from files. In order to do that just add the xml file to the docs folder and put the name of the file in the main.rb
-
-File.open("./docs/{name of your file}.xml")
+- paste your XML documents you want to test
+- run: ruby bin/main.rb {name_of_file1.xml name_of_file2.xml..name_of_file(n).xml} to linter through any XML files you want to scan
 
 ### Deployment
 
