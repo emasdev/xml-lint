@@ -24,7 +24,9 @@ module XMLlint
     end
 
     def cut_schema
-      @xml = @xml[@xml.index('?>') + 2..@xml.size] if @xml.index('<?') && @xml.index('?>')
+      if @xml.index('<?') && @xml.index('?>')
+        @xml = @xml[@xml.index('?>') + 2..@xml.size]
+      end
     end
 
     # rubocop:disable Metrics/MethodLength
