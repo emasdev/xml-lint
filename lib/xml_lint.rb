@@ -101,12 +101,4 @@ module XMLlint
     xml = XMLScanner.new(self)
     xml.linter
   end
-
-  def xml_cut_next_tag
-    return unless index('<') && index('>')
-
-    open_index = index('<')
-    close_index = index('>') + 1
-    self[open_index..close_index]
-  end
 end
