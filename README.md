@@ -25,8 +25,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone or download this project
 - Open a terminal and cd to the folder where the project lives
-- paste your XML documents you want to test
-- run: ruby bin/main.rb {name_of_file1.xml name_of_file2.xml..name_of_file(n).xml} to linter through any XML files you want to scan
+- Paste your XML documents you want to test
+- run: ruby bin/main.rb {name_of_file1.xml name_of_file2.xml..name_of_file(n).xml} to linter through any XML files you want to scan inside docs folder
 
 ### Deployment
 
