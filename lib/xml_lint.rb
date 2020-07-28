@@ -24,7 +24,8 @@ module XMLlint
     end
 
     def cut_schema
-      @xml = @xml[@xml.index('?>') + 2..@xml.size] if @xml.index('<?') && @xml.index('?>')
+      return unless @xml.index('<?') && @xml.index('?>')
+      @xml = @xml[@xml.index('?>') + 2..@xml.size] 
     end
 
     # rubocop:disable Metrics/MethodLength
@@ -48,7 +49,8 @@ module XMLlint
 
         scan = false if (i + 1) > tags.size
       end
-      conflicted_tags_text = "Error: some tags are not properly closed\nVerify this tags:\n"
+      conflicted_tags_text = "Error: some tags are not properly closed\n"
+      conflicted_tags_text += "Verify this tags:\n"
       tags.each do |tag|
         conflicted_tags_text += tag.text + ' '
       end
