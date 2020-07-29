@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+  <test>Info about something</test>
+  <test>
+    <test>
+      <test3>Other stuffs</test3>
+    </test>
+  </test>
+</test>

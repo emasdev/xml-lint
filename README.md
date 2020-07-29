@@ -1,57 +1,41 @@
-# Project Name
+# Ruby XML Lint
 
-> One paragraph statement about the project.
+> This project is to validate if an XML document is well formed and in case it doesn't it will show you the tags that are no properly closed.
 
-![screenshot](./app_screenshot.png)
+Great to use after parsing an XML file or String.
 
-Additional description about the project and its features.
+![Screenshot](screenshot.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
+- Ruby
 
 ### Usage
 
-### Run tests
+- Clone or download this project
+- Open a terminal and cd to the folder where the project lives
+- Paste your XML documents you want to test
+- run: ruby bin/main.rb {name_of_file1.xml name_of_file2.xml..name_of_file(n).xml} to linter through any XML files you want to scan inside docs folder
 
 ### Deployment
 
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Emanuel González**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@emasdev](https://github.com/emasdev)
+- Twitter: [@elemasss](https://twitter.com/elemass)
 
 ## 🤝 Contributing
 
@@ -62,12 +46,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
